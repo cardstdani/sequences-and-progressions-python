@@ -1,0 +1,7 @@
+sequence = [2]
+iterations = 10
+
+for i in range(0, iterations):
+    sequence.append((sum(sequence) / len(sequence)) * sequence[i])
+
+print(sequence)
