@@ -1,0 +1,8 @@
+initialNumber = 1
+sequence = [initialNumber]
+rate = 30
+
+for i in range(0, 100):
+    sequence.append(sequence[i] * rate)
+    
+print(sequence)
